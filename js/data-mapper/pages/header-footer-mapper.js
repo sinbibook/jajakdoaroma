@@ -257,9 +257,10 @@
     }
 
     // 업체 전화번호
+    var phone = this.toPhoneList(prop.contactPhone)[0];
     var phoneEl = document.querySelector('[data-footer-phone]');
-    if (phoneEl && prop.contactPhone) {
-      phoneEl.textContent = prop.contactPhone;
+    if (phoneEl) {
+      phoneEl.textContent = phone;
     }
 
     // 사업자 정보 (주소 / 사업자번호 / 대표자 — 줄바꿈 유지, 링크·pop은 형제이므로 건드리지 않음)
