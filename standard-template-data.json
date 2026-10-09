@@ -1,7 +1,7 @@
 {
   "metadata": {
-    "version": "1.8.0",
-    "generatedAt": "2026-08-27T02:04:32.291809895Z",
+    "version": "1.9.0",
+    "generatedAt": "2026-10-09T08:02:59.204558318Z",
     "templateType": "trip_e",
     "propertyId": "301067e1-6203-4464-8e72-2017b05a4295",
     "homepageId": "f462316b-365b-449c-a50a-fb3be97e1679"
@@ -29,6 +29,9 @@
     "domain": "jajakdoaroma.kr",
     "realtimeBookingId": "",
     "ybsId": "78656",
+    "tripPropertyId": "9464",
+    "partnerType": "distributor_a",
+    "tripProviderName": "주식회사 다채움컴퍼니",
     "amenities": [
       "흡연구역(지정장소)",
       "주차장"
@@ -2059,9 +2062,9 @@
       },
       "theme": {
         "font": {
+          "koMain": null,
           "koSub": null,
-          "enMain": null,
-          "koMain": null
+          "enMain": null
         },
         "color": null
       },
